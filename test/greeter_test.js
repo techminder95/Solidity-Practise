@@ -4,4 +4,5 @@ contract("Greeter", () => {
     const greeter = await GreeterContract.deployed();
     assert(greeter, "contract was not deployed");
   });
+  
 });
